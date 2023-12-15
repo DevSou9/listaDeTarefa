@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #EDEDED;
+    max-width: 1200px;
+}
+
+#div-body{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;   
+    height: auto;
+    
+}
+
+#div-body header {
+    margin-top: 150px;
+    display: flex;
+    justify-content: center;
+    
+    width: 100%;
+}
+
+#div-body main form{
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    
+    height: auto;
+}
+
+#div-body main form{
+    display: flex;
+
+}
+
+#div-body main form button{
+    margin-left: 3px;
+}
+
+main #div-Tarefa{
+    display: block;
+    margin-top: 20px;
+    
+    text-align: center;
+    text-decoration: line-through;
+}
