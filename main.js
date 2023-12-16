@@ -11,6 +11,10 @@ $('form').on('submit', function(e){
     $('input').val('');
 })
 
+$('#ulTarefa').on('click', 'li', function() {
+    $(this).toggleClass('liRiscado');
+});
+
 })
 
 

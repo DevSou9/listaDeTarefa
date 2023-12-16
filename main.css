@@ -47,5 +47,8 @@ main #div-Tarefa{
     margin-top: 20px;
     
     text-align: center;
+}
+
+.liRiscado{
     text-decoration: line-through;
 }
